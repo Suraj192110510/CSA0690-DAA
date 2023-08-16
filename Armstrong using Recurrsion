@@ -1,0 +1,31 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
+int armstrong(int n , int c)
+{
+	if(n>0)
+	{
+		return (pow(n%10,c) + armstrong(n/10 , c));
+	}
+}
+
+int main()
+{
+	int n ,c = 0 ,m;
+	printf("Find Armstrong of : ");
+	scanf("%d" , &n);
+	m = n;
+	while(m > 0)
+	{
+		m = m / 10;
+		c = c + 1;
+	}
+	if((armstrong(n , c) - c) == n)
+	{
+		printf("%d is Armstrong" , n);
+	}
+	else
+	{
+		printf("%d is not Armstrong" , n);
+	}
+}
