@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+	int n, m;
+	printf("The number of numbers to find factors of : ");
+	scanf("%d" , &n);
+	for(int i = 0; i < n; i++)
+	{
+		printf("Find factors of : ");
+		scanf("%d" , &m);
+		printf("The factors of %d are : \n" , m);
+		for(int j = 1; j <= m; j++)
+		{
+			if(m % j == 0 and m == j)
+			printf("%d" , j);
+			else if(m % j == 0)
+			printf("%d," , j);
+		}
+		printf("\n");
+	}
+}
