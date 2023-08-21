@@ -6,6 +6,7 @@ int main()
 	scanf("%d" , &m);
 	printf("The numbers to which the prime numbers to be printed is : ");
 	scanf("%d" , &n);
+	printf("Perfect numbers in the range %d and %d are : " , m , n); 
 	for(i = m; i <= n; i++)
 	{
 		count = 0;
