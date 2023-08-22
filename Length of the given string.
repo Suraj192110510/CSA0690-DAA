@@ -3,7 +3,7 @@
 int main()
 {
 	char a[100];
-	printf("Reverse the string : ");
+	printf("Find length of the string : ");
 	scanf("%s" , &a);
-	printf("Reverse of the given string is : %s" , strrev(a));
+	printf("Length of the string "%s" is : %d" , a, strlen(a));
 }
