@@ -1,5 +1,6 @@
 // Program to solve Job Assignment problem
 // using Branch and Bound
+#include<stdio.h>
 #include <bits/stdc++.h>
 using namespace std;
 #define N 4
