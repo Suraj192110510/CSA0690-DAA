@@ -1,4 +1,5 @@
 // C++ program for the above problem
+#include<stdio.h>
 #include <bits/stdc++.h>
 using namespace std;
 
